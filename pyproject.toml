@@ -4,7 +4,9 @@ version = "0.1.0"
 readme = "readme.md"
 requires-python = ">= 3.8"
 description = "Django Nested Query"
-authors = ["Simage <simage@gmail.com>"]
+authors = [
+    { name = "Simage", email = "simage@gmail.com"},
+]
 dependencies = ["django >= 3.1 <4.0.0"]
 packages = [
     { include = "nestedquery" },
